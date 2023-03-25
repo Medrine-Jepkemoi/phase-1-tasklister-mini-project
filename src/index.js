@@ -35,7 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const div = document.querySelector('#list ul').appendChild(list)
   }
 
-  
+  //function to delete values form the todo list
+  function removeTask(e){
+    e.target.parentNode.remove();
+ }
 
 
 
